@@ -1,15 +1,21 @@
 body {
     background-color: #f8f8f8;
 }
-header {
-
+    header {
+    display: inline-block;
+    width: 1000px;
+    background: chartreuse;
+    margin-left: calc( (100% - 1000px) / 2 );
 }
     header > img {
+    display: inline-block;
+    float: left;
 
     }
 
     nav {
-
+    display: inline-block;
+    float: right;
     }
         a {
 
@@ -18,11 +24,14 @@ header {
 
         }
 main {
-
-
+width: 1000px;
+margin-left: calc( (100% - 1000px) / 2 );
 }
     div {
-
+        display: inline-block;
+        width: 40%;
+        float:left;
+        margin-top: 100px;
     }
         h1 {
 
@@ -31,6 +40,8 @@ main {
 
         }
     main > img {
-
+        display: inline-block;
+        width: 50%;
+        float: right;
     }
 
