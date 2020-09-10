@@ -6,6 +6,7 @@ body {
     width: 1000px;
     background: chartreuse;
     margin-left: calc( (100% - 1000px) / 2 );
+   
 }
     header > img {
     display: inline-block;
@@ -43,5 +44,6 @@ margin-left: calc( (100% - 1000px) / 2 );
         display: inline-block;
         width: 50%;
         float: right;
+      
     }
-
+    
