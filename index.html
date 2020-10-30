@@ -17,11 +17,17 @@
     <a href=#>Community </a>
     <a href=#>Sign in </a>
 </nav>
+<div class="container">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+<div class="mobileNav">
+</div>
     </header>
 
-
 <main>
-    <div>
+    <div class="text">
         <h1>404</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
     </div>
@@ -30,8 +36,26 @@
 
 
 </main>
+<script>
+function myFunction() {
+  const burger=document.querySelector(".container")
+  const mobNav=document.querySelector(".mobileNav")
+ let count=0;
+  burger.addEventListener("click",()=>{
+    burger.classList.toggle("change");
+    if ( count===0) {
+        mobNav.style.display="block"
+        count++
+    }
+    else if (count===1) {
+        mobNav.style.display="none"
+        count--
+    }
+    
+  })
+}
+myFunction();
 
-
-
+</script>
 </body>
 </html>
